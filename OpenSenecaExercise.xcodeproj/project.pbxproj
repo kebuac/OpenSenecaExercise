@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		016E261DA5E28F6C0AA6311D /* Pods_OpenSenecaExercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BEF8219956D9F8243C73DD6 /* Pods_OpenSenecaExercise.framework */; };
 		807FB5CE1E23F56600A75EE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807FB5CD1E23F56600A75EE4 /* AppDelegate.swift */; };
-		807FB5D01E23F56600A75EE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807FB5CF1E23F56600A75EE4 /* ViewController.swift */; };
 		807FB5D31E23F56600A75EE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807FB5D11E23F56600A75EE4 /* Main.storyboard */; };
 		807FB5D51E23F56600A75EE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807FB5D41E23F56600A75EE4 /* Assets.xcassets */; };
 		807FB5D81E23F56600A75EE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807FB5D61E23F56600A75EE4 /* LaunchScreen.storyboard */; };
@@ -21,7 +20,6 @@
 		7CC3E5E6390B493A78BA13C2 /* Pods-OpenSenecaExercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenSenecaExercise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenSenecaExercise/Pods-OpenSenecaExercise.debug.xcconfig"; sourceTree = "<group>"; };
 		807FB5CA1E23F56600A75EE4 /* OpenSenecaExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenSenecaExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		807FB5CD1E23F56600A75EE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		807FB5CF1E23F56600A75EE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		807FB5D21E23F56600A75EE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		807FB5D41E23F56600A75EE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		807FB5D71E23F56600A75EE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 			children = (
 				807FB5CD1E23F56600A75EE4 /* AppDelegate.swift */,
 				807FB5DF1E23F7F900A75EE4 /* FoodTableViewController.swift */,
-				807FB5CF1E23F56600A75EE4 /* ViewController.swift */,
 				807FB5D11E23F56600A75EE4 /* Main.storyboard */,
 				807FB5D41E23F56600A75EE4 /* Assets.xcassets */,
 				807FB5D61E23F56600A75EE4 /* LaunchScreen.storyboard */,
@@ -229,7 +226,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				807FB5D01E23F56600A75EE4 /* ViewController.swift in Sources */,
 				807FB5E01E23F7F900A75EE4 /* FoodTableViewController.swift in Sources */,
 				807FB5CE1E23F56600A75EE4 /* AppDelegate.swift in Sources */,
 			);
