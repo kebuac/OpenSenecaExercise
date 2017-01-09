@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import TwitterKit
 import SDWebImage
 
 // Flickr API Key must be changed every 24h because i'm using a temporary key. Just visit https://www.flickr.com/services/api/explore/flickr.photos.getRecent make a call and on the bottom will appear a URL where you can take the api key
@@ -25,11 +26,25 @@ class FoodTableViewController: UITableViewController {
     @IBOutlet var serviceImageView: UIImageView!
     @IBOutlet var restaurantIndustryImageView: UIImageView!
     @IBOutlet var meatShopImageView: UIImageView!
+    @IBOutlet var twitterView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.request(to: self.flickrURL)
+        
+        for i in 0...10 {
+            // TODO: Base this Tweet ID on some data from elsewhere in your app
+            TWTRAPIClient().loadTweet(withID: "631879971628183552") { (tweet, error) in
+                if let unwrappedTweet = tweet {
+                    let tweetView = TWTRTweetView(tweet: unwrappedTweet)
+                    tweetView.center = CGPoint(x: self.view.center.x, y: self.topLayoutGuide.length + tweetView.frame.size.height / 2 * CGFloat(i));
+                    self.twitterView.addSubview(tweetView)
+                } else {
+                    print("Tweet load error: \(error!.localizedDescription)");
+                }
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
