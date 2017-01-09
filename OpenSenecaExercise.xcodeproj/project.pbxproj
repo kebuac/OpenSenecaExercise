@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		016E261DA5E28F6C0AA6311D /* Pods_OpenSenecaExercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BEF8219956D9F8243C73DD6 /* Pods_OpenSenecaExercise.framework */; };
 		807FB5CE1E23F56600A75EE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807FB5CD1E23F56600A75EE4 /* AppDelegate.swift */; };
 		807FB5D01E23F56600A75EE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807FB5CF1E23F56600A75EE4 /* ViewController.swift */; };
 		807FB5D31E23F56600A75EE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807FB5D11E23F56600A75EE4 /* Main.storyboard */; };
 		807FB5D51E23F56600A75EE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807FB5D41E23F56600A75EE4 /* Assets.xcassets */; };
 		807FB5D81E23F56600A75EE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807FB5D61E23F56600A75EE4 /* LaunchScreen.storyboard */; };
+		807FB5E01E23F7F900A75EE4 /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807FB5DF1E23F7F900A75EE4 /* FoodTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6BEF8219956D9F8243C73DD6 /* Pods_OpenSenecaExercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenSenecaExercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC3E5E6390B493A78BA13C2 /* Pods-OpenSenecaExercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenSenecaExercise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenSenecaExercise/Pods-OpenSenecaExercise.debug.xcconfig"; sourceTree = "<group>"; };
 		807FB5CA1E23F56600A75EE4 /* OpenSenecaExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenSenecaExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		807FB5CD1E23F56600A75EE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		807FB5CF1E23F56600A75EE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		807FB5D41E23F56600A75EE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		807FB5D71E23F56600A75EE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		807FB5D91E23F56600A75EE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807FB5DF1E23F7F900A75EE4 /* FoodTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
+		994C5FAB5D390F2F647268BC /* Pods-OpenSenecaExercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenSenecaExercise.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenSenecaExercise/Pods-OpenSenecaExercise.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016E261DA5E28F6C0AA6311D /* Pods_OpenSenecaExercise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D9C2D08B92587D50628A3E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CC3E5E6390B493A78BA13C2 /* Pods-OpenSenecaExercise.debug.xcconfig */,
+				994C5FAB5D390F2F647268BC /* Pods-OpenSenecaExercise.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		807FB5C11E23F56600A75EE4 = {
 			isa = PBXGroup;
 			children = (
 				807FB5CC1E23F56600A75EE4 /* OpenSenecaExercise */,
 				807FB5CB1E23F56600A75EE4 /* Products */,
+				4D9C2D08B92587D50628A3E8 /* Pods */,
+				BA1FCA3BA830337D9BDDAC43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				807FB5CD1E23F56600A75EE4 /* AppDelegate.swift */,
+				807FB5DF1E23F7F900A75EE4 /* FoodTableViewController.swift */,
 				807FB5CF1E23F56600A75EE4 /* ViewController.swift */,
 				807FB5D11E23F56600A75EE4 /* Main.storyboard */,
 				807FB5D41E23F56600A75EE4 /* Assets.xcassets */,
@@ -64,6 +83,14 @@
 			path = OpenSenecaExercise;
 			sourceTree = "<group>";
 		};
+		BA1FCA3BA830337D9BDDAC43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BEF8219956D9F8243C73DD6 /* Pods_OpenSenecaExercise.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +98,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 807FB5DC1E23F56600A75EE4 /* Build configuration list for PBXNativeTarget "OpenSenecaExercise" */;
 			buildPhases = (
+				2265B1BE64A53E2A61374D16 /* [CP] Check Pods Manifest.lock */,
 				807FB5C61E23F56600A75EE4 /* Sources */,
 				807FB5C71E23F56600A75EE4 /* Frameworks */,
 				807FB5C81E23F56600A75EE4 /* Resources */,
+				231EF2255095F1EEEF2E8D6B /* [CP] Embed Pods Frameworks */,
+				68CE5599138F61978710B610 /* [CP] Copy Pods Resources */,
+				80CC2AD21E23FA6F00E12668 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -132,12 +163,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2265B1BE64A53E2A61374D16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		231EF2255095F1EEEF2E8D6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenSenecaExercise/Pods-OpenSenecaExercise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68CE5599138F61978710B610 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenSenecaExercise/Pods-OpenSenecaExercise-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80CC2AD21E23FA6F00E12668 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" aeb28ce45bf7bcf24497f6a2b24afed39c0259e6 5b0a3edb0d5a1d3b0ff0e425330ef71b96cc658fa25f9689d0a416d083c22f95";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		807FB5C61E23F56600A75EE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				807FB5D01E23F56600A75EE4 /* ViewController.swift in Sources */,
+				807FB5E01E23F7F900A75EE4 /* FoodTableViewController.swift in Sources */,
 				807FB5CE1E23F56600A75EE4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +352,7 @@
 		};
 		807FB5DD1E23F56600A75EE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CC3E5E6390B493A78BA13C2 /* Pods-OpenSenecaExercise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W738RVX7NU;
@@ -272,6 +366,7 @@
 		};
 		807FB5DE1E23F56600A75EE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994C5FAB5D390F2F647268BC /* Pods-OpenSenecaExercise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W738RVX7NU;
@@ -302,6 +397,7 @@
 				807FB5DE1E23F56600A75EE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
