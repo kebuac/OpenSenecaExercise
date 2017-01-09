@@ -5,6 +5,9 @@ PODS:
   - GoogleMaps/Base (2.1.1)
   - GoogleMaps/Maps (2.1.1):
     - GoogleMaps/Base
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
   - TwitterCore (2.7.0):
     - Fabric
   - TwitterKit (2.7.0):
@@ -13,14 +16,16 @@ PODS:
 DEPENDENCIES:
   - Fabric
   - GoogleMaps
+  - SDWebImage
   - TwitterKit
 
 SPEC CHECKSUMS:
   Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
   GoogleMaps: a5b5bbe47734e2443bde781a6aa64e69fdb6d785
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   TwitterCore: fbdbeaf6d2d20cf7c7aa4136fe5173c1c85df2e2
   TwitterKit: 97e729ceea041d174126235bf6ff67dcf37772d4
 
-PODFILE CHECKSUM: 86912cb658c4676b796e84e04f427858e7129911
+PODFILE CHECKSUM: 7f856c49214ddafe195ab64c087cbc8598afb9a6
 
 COCOAPODS: 1.2.0.beta.3

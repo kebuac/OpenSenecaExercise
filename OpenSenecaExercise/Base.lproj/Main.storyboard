@@ -299,30 +299,30 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="google_plus" translatesAutoresizingMaskIntoConstraints="NO" id="Isi-dH-azc">
-                                                    <rect key="frame" x="147" y="184" width="80" height="80"/>
+                                                    <rect key="frame" x="157" y="199" width="60" height="60"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="80" id="6m7-Fa-tO1"/>
+                                                        <constraint firstAttribute="height" constant="60" id="6m7-Fa-tO1"/>
                                                     </constraints>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location" translatesAutoresizingMaskIntoConstraints="NO" id="lRy-Ip-ibd">
-                                                    <rect key="frame" x="147" y="292" width="80" height="80"/>
+                                                    <rect key="frame" x="157" y="307" width="60" height="60"/>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facebook" translatesAutoresizingMaskIntoConstraints="NO" id="0bc-zL-y2g">
-                                                    <rect key="frame" x="147" y="69" width="80" height="80"/>
+                                                    <rect key="frame" x="157" y="84" width="60" height="60"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="80" id="4id-Gm-BQ9"/>
-                                                        <constraint firstAttribute="width" constant="80" id="k2B-sg-fYu"/>
+                                                        <constraint firstAttribute="height" constant="60" id="4id-Gm-BQ9"/>
+                                                        <constraint firstAttribute="width" constant="60" id="k2B-sg-fYu"/>
                                                     </constraints>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="0bc-zL-y2g" firstAttribute="trailing" secondItem="Isi-dH-azc" secondAttribute="trailing" id="6Ss-Wt-DGQ"/>
-                                                <constraint firstItem="Isi-dH-azc" firstAttribute="top" secondItem="0bc-zL-y2g" secondAttribute="bottom" constant="35" id="CM7-Kc-Tz7"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="lRy-Ip-ibd" secondAttribute="bottom" constant="70" id="DfN-E9-6ZY"/>
-                                                <constraint firstItem="0bc-zL-y2g" firstAttribute="top" secondItem="hg2-0B-fRe" secondAttribute="topMargin" constant="61" id="M0T-8h-vcg"/>
+                                                <constraint firstItem="Isi-dH-azc" firstAttribute="top" secondItem="0bc-zL-y2g" secondAttribute="bottom" constant="55" id="CM7-Kc-Tz7"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="lRy-Ip-ibd" secondAttribute="bottom" constant="75" id="DfN-E9-6ZY"/>
+                                                <constraint firstItem="0bc-zL-y2g" firstAttribute="top" secondItem="hg2-0B-fRe" secondAttribute="topMargin" constant="76" id="M0T-8h-vcg"/>
                                                 <constraint firstItem="Isi-dH-azc" firstAttribute="trailing" secondItem="lRy-Ip-ibd" secondAttribute="trailing" id="OAm-9Z-8Q7"/>
                                                 <constraint firstItem="0bc-zL-y2g" firstAttribute="leading" secondItem="Isi-dH-azc" secondAttribute="leading" id="UVf-SU-4ox"/>
-                                                <constraint firstItem="lRy-Ip-ibd" firstAttribute="top" secondItem="Isi-dH-azc" secondAttribute="bottom" constant="28" id="Y7o-6b-TNx"/>
+                                                <constraint firstItem="lRy-Ip-ibd" firstAttribute="top" secondItem="Isi-dH-azc" secondAttribute="bottom" constant="48" id="Y7o-6b-TNx"/>
                                                 <constraint firstItem="Isi-dH-azc" firstAttribute="leading" secondItem="lRy-Ip-ibd" secondAttribute="leading" id="c0z-yN-leE"/>
                                                 <constraint firstItem="0bc-zL-y2g" firstAttribute="centerX" secondItem="hg2-0B-fRe" secondAttribute="centerX" id="q28-j1-uhs"/>
                                             </constraints>

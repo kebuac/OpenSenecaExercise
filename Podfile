@@ -9,4 +9,5 @@ target 'OpenSenecaExercise' do
     pod 'GoogleMaps'
     pod 'Fabric'
     pod 'TwitterKit'
+    pod 'SDWebImage'
 end
